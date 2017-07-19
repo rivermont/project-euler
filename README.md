@@ -10,9 +10,14 @@ If you came here looking for solutions, take a minute to think about what you're
   - [project-euler](#project-euler)
   - [Table of Contents](#table-of-contents)
   - [Problems](#problems)
+    - [001](#001---multiples-of-3-and-5)
   - [Questions](#questions)
 
 # Problems
+
+## 001 - Multiples of 3 and 5
+Python - [`001.py`](https://github.com/rivermont/project-euler/blob/master/solutions/001.py)<br>
+51 characters, 1 line
 
 
 # Questions
