@@ -18,8 +18,7 @@ def try_num(num, lis):
 			i += 1
 	if i == len(lis):
 		return True
-	else:
-		return False
+	return False
 
 while True:
 	i += 1

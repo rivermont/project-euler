@@ -15,6 +15,8 @@ If you came here looking for solutions, take a minute to think about what you're
   - [Problems](#problems)
     - [001](#001---multiples-of-3-and-5)
     - [002](#002---even-fibonacci-numbers)
+    - [004](#004---largest-palindrome-product)
+    - [005](#005---smallest-multiple)
   - [Questions](#questions)
 
 # About
@@ -33,6 +35,10 @@ Python - [`001.py`](https://github.com/rivermont/project-euler/blob/master/solut
 ## 002 - Even Fibonacci numbers
 Python - [`002.py`](https://github.com/rivermont/project-euler/blob/master/solutions/002.py)<br>
 10 lines
+
+## 004 - Largest palindome product
+Python - [`004.py`](https://github.com/rivermont/project-euler/blob/master/solutions/004.py)<br>
+15 lines
 
 ## 005 - Smallest multiple
 Python - [`005.py`](https://github.com/rivermont/project-euler/blob/master/solutions/005.py)<br>
