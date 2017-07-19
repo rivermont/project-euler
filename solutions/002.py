@@ -1,7 +1,7 @@
 # Project Euler Problem 2
 # Even Fibonacci numbers
 
-# Copyright (c) 2017 - rivermont
+# Copyright (c) 2017 - Will Bennett
 # Created under the MIT License
 
 a = 0

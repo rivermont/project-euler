@@ -29,7 +29,7 @@ I set it up for myself rather like code golf, hence the character and line count
 
 ## 001 - Multiples of 3 and 5
 Python - [`001.py`](https://github.com/rivermont/project-euler/blob/master/solutions/001.py)<br>
-51 characters, 1 line
+49 characters, 1 line
 
 ## 002 - Even Fibonacci numbers
 Python - [`002.py`](https://github.com/rivermont/project-euler/blob/master/solutions/002.py)<br>
