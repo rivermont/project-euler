@@ -22,18 +22,21 @@ Project Euler is a series of a few hundred programming problems designed to chal
 The complexity of the problems scales very rapidly, and the hard ones challenge even the best of coders.
 
 I needed a new project to work on, so I have begun going through the problems on my own.<br>
-I set it up for myself rather like code golf, hence the character and line counts.
 
 
 # Problems
 
 ## 001 - Multiples of 3 and 5
 Python - [`001.py`](https://github.com/rivermont/project-euler/blob/master/solutions/001.py)<br>
-49 characters, 1 line
+1 line
 
 ## 002 - Even Fibonacci numbers
 Python - [`002.py`](https://github.com/rivermont/project-euler/blob/master/solutions/002.py)<br>
-39 characters, 10 lines
+10 lines
+
+## 005 - Smallest multiple
+Python - [`005.py`](https://github.com/rivermont/project-euler/blob/master/solutions/005.py)<br>
+16 lines
 
 
 # Questions
