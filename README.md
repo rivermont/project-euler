@@ -3,6 +3,8 @@ This is a storage space for organizing my solutions to the Project Euler problem
 If you do not wish to have solutions spoiled, you should probably turn around and go home.<br>
 If you came here looking for solutions, take a minute to think about what you're doing, then **do them yourself please**!
 
+[![Project Euler Profile](https://projecteuler.net/profile/r1vermont.png)]
+
 --------------------
 
 # Table of Contents
