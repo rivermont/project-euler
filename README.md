@@ -17,6 +17,7 @@ If you came here looking for solutions, take a minute to think about what you're
     - [002](#002---even-fibonacci-numbers)
     - [004](#004---largest-palindrome-product)
     - [005](#005---smallest-multiple)
+	- [012](#012---highly-divisible-triangular-number)
   - [Questions](#questions)
 
 # About
@@ -43,6 +44,10 @@ Python - [`004.py`](https://github.com/rivermont/project-euler/blob/master/solut
 ## 005 - Smallest multiple
 Python - [`005.py`](https://github.com/rivermont/project-euler/blob/master/solutions/005.py)<br>
 16 lines
+
+## 012 - Highly divisible triangular number
+Python - [`012.py`](https://github.com/rivermont/project-euler/blob/master/solutions/012.py)<br>
+24 lines
 
 
 # Questions
