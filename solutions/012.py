@@ -28,6 +28,6 @@ while True:
 	tri = get_triangle(n)
 	divs = count_divisors(tri)
 	print('{0}: {1}: {2}'.format(n, tri, divs))
-	if divs >= 200:
+	if divs >= 500:
 		print('Found {0}'.format(tri))
 		break
