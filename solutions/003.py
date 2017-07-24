@@ -12,17 +12,14 @@ def get_primes(n):
 	i = 1
 	s = n**0.5 #Square root of n
 	a = list(range(1, (n + 1)))
-	p = []
+	b = a
 	while i < s:
 		i += 1
-		print('i: ' + str(i))
-		p.append(i)
 		t = a[i**2-1::i] #A list of all numbers in a, starting at i^2, in increments of i
-		a = set(a)
+		b = set(b)
 		for x in t:
-			print(x)
-			a.remove(x)
-		a = sorted(list(a))
-	return a, p
+			b.discard(x)
+		b = sorted(list(b))
+	return b
 
-print(get_primes(100))
+print(get_primes(1000))
