@@ -1,7 +1,7 @@
 # project-euler
 This is a storage space for organizing my solutions to the Project Euler problems.<br>
 If you do not wish to have solutions spoiled, you should probably turn around and go home.<br>
-If you came here looking for solutions, take a minute to think about what you're doing, then **do them yourself please**!
+If you came here looking for solutions, take a minute to think about what you're doing, then proceed to **do them yourself please**!
 
 [![Project Euler Profile](https://projecteuler.net/profile/r1vermont.png)](#)
 
@@ -53,7 +53,7 @@ Python - [`012.py`](https://github.com/rivermont/project-euler/blob/master/solut
 
 ## 013 - Large sum
 Python - [`013.py`](https://github.com/rivermont/project-euler/blob/master/solutions/013.py) - 6 lines<br>
-My original thought was to use `threading` and calculate the numbers simoltaneously, but it turned out they could just be bruteforced in a second.
+My original thought was to use `threading` and calculate the numbers simultaneously, but it turned out they could just be bruteforced in a second.
 
 
 # Functions
@@ -83,5 +83,5 @@ Returns `True` if `num` is a palindrome, otherwise returns `False`.
 
 
 # Questions
-I understand that Project Euler do not like it when solutions are shared, however that is not my intent.<br>
-I created this repo to store my own code, not to share it with people looking for solutions (hence the warning at the top).<br>
+I understand that Project Euler do not like it when solutions are shared online, however that is not my intent.<br>
+I created this repo to organize my own code for myself, not to share it with people looking for solutions (hence the warning at the top).<br>
