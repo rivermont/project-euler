@@ -5,19 +5,9 @@
 # Created under the MIT License
 
 
-p = set([])
+from functions import *
 
-def is_palindrome(num):
-	'''
-	Returns True if num is a palindrome,
-	otherwise returns False.
-	'''
-	l = []
-	for i in str(num):
-		l.append(i)
-	if l == l[::-1]:
-		return True
-	return False
+p = set([])
 
 for m in range(100, 1000):
 	for n in range(100, 1000):

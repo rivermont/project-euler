@@ -5,31 +5,12 @@
 # Created under the MIT License
 
 
-def get_primes(n):
-	'''
-	Returns a list of all the prime numbers up to n.
-	'''
-	i = 1
-	s = n**0.5 #Square root of n
-	a = list(range(1, (n + 1)))
-	b = a
-	while i < s:
-		i += 1
-		t = a[i**2-1::i] #A list of all numbers in a, starting at i^2, in increments of i
-		b = set(b)
-		for x in t:
-			b.discard(x)
-		b = sorted(list(b))
-	return b
+from functions import *
 
-z = 600851475143
-i = 2
-f = []
+#z = 600851475143
 
-while i < z / 20:
-	i += 1
-	if z % i == 0:
-		print(i)
-		f.append(i)
+factors = [f for f, a in factors(100)]
+print(factors)
 
-print(f)
+# Divisors of 600851475143:
+# 71, 839, 1471, 6857, 59569, 104441, 486847, 1234169, 5753023, 10086647, 87625999, 408464633, 716151937, 8462696833

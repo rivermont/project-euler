@@ -5,6 +5,8 @@
 # Created under the MIT License
 
 
+from functions import *
+
 a = 0
 b = 0
 x = 0

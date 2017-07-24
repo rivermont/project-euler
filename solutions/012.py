@@ -5,26 +5,7 @@
 # Created under the MIT License
 
 
-def get_triangle(num):
-	'''
-	Returns the num-th triangle number.
-	'''
-	i = 0
-	a = 0
-	while i < num:
-		i += 1
-		a += i
-	return a
-
-def count_divisors(num):
-	'''
-	Returns the number of divisors/factors that num has.
-	'''
-	x = 1
-	for i in range(1, int((num / 2) + 1)):
-		if num % i == 0:
-			x += 1
-	return x
+from functions import *
 
 n = 0
 
