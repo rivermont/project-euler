@@ -18,7 +18,13 @@ If you came here looking for solutions, take a minute to think about what you're
     - [004](#004---largest-palindrome-product)
     - [005](#005---smallest-multiple)
 	- [012](#012---highly-divisible-triangular-number)
+	- [013](#013---large-sum)
   - [Functions](#functions)
+    - [count_divisors](#count-divisors---012py)
+	- [get_primes](#get_primes---003py)
+	- [get_triangle](#get_triangle---012py)
+	- [is_completely_divisible](#is-completely-divisible---005py)
+	- [is_palindrome](#is-palindrome---004py)
   - [Questions](#questions)
 
 # About
@@ -53,18 +59,28 @@ My original thought was to use `threading` and calculate the numbers simoltaneou
 # Functions
 
 ## `count_divisors` - ([012.py](https://github.com/rivermont/project-euler/blob/master/solutions/012.py#L19))
+Returns the number of divisors/factors that `num` has.
 
-
-## `get_triangle` - ([012.py](https://github.com/rivermont/project-euler/blob/master/solutions/012.py#L8))
-
-
-## `is_palindrome` - ([004.py](https://github.com/rivermont/project-euler/blob/master/solutions/004.py#L10))
-
+> count_divisors(num)
 
 ## `get_primes` - ([003.py](https://github.com/rivermont/project-euler/blob/master/solutions/003.py#L8))
+Returns a list of all the prime numbers up to `n`.
 
+> get_primes(n)
+
+## `get_triangle` - ([012.py](https://github.com/rivermont/project-euler/blob/master/solutions/012.py#L8))
+Returns the `num`-th triangle number.
+
+> get_triangle(num)
 
 ## `is_completely_divisible` - ([005.py](https://github.com/rivermont/project-euler/blob/master/solutions/005.py#L11))
+Returns `True` if `num` is divisible by every element in `lis`, otherwise returns `False`.
+
+> is_completely_divisible(num, lis)
+
+## `is_palindrome` - ([004.py](https://github.com/rivermont/project-euler/blob/master/solutions/004.py#L10))
+Returns `True` if `num` is a palindrome, otherwise returns `False`.
+
 
 # Questions
 I understand that Project Euler do not like it when solutions are shared, however that is not my intent.<br>
