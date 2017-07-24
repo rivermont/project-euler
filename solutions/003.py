@@ -22,4 +22,14 @@ def get_primes(n):
 		b = sorted(list(b))
 	return b
 
-print(get_primes(1000))
+z = 600851475143
+i = 2
+f = []
+
+while i < z / 20:
+	i += 1
+	if z % i == 0:
+		print(i)
+		f.append(i)
+
+print(f)

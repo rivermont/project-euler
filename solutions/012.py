@@ -4,6 +4,7 @@
 # Copyright (c) 2017 - Will Bennett
 # Created under the MIT License
 
+
 def get_triangle(num):
 	'''
 	Returns the num-th triangle number.
@@ -23,6 +24,7 @@ def count_divisors(num):
 	return x
 
 n = 0
+
 while True:
 	n += 1
 	tri = get_triangle(n)

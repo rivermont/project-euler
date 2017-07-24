@@ -4,6 +4,7 @@
 # Copyright (c) 2017 - Will Bennett
 # Created under the MIT License
 
+
 p = set([])
 
 def is_palindrome(num):
