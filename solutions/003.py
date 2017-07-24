@@ -1,5 +1,5 @@
-# Project Euler Problem 2
-# Even Fibonacci numbers
+# Project Euler Problem 3
+# Largest prime factor
 
 # Copyright (c) 2017 - Will Bennett
 # Created under the MIT License
