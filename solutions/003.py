@@ -7,7 +7,7 @@
 
 def get_primes(n):
 	'''
-	Returns a list of all the prime numbers below n.
+	Returns a list of all the prime numbers up to n.
 	'''
 	i = 1
 	s = n**0.5 #Square root of n

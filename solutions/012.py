@@ -17,6 +17,9 @@ def get_triangle(num):
 	return a
 
 def count_divisors(num):
+	'''
+	Returns the number of divisors/factors that num has.
+	'''
 	x = 1
 	for i in range(1, int((num / 2) + 1)):
 		if num % i == 0:

@@ -8,6 +8,10 @@
 p = set([])
 
 def is_palindrome(num):
+	'''
+	Returns True if num is a palindrome,
+	otherwise returns False.
+	'''
 	l = []
 	for i in str(num):
 		l.append(i)
