@@ -5,9 +5,12 @@
 # Created under the MIT License
 
 
-def factors(num):
+def factors(num, mode):
 	'''
-	Returns (a list of all factors of num, the number of factors of num).
+	Modes:
+	0 -> Returns a list of all factors of num.
+	1 -> Returns the number of factors num has.
+	2 -> Returns (list of factors of num, amount of factors)
 	'''
 	a = 1
 	f = []
@@ -15,7 +18,12 @@ def factors(num):
 		if num % i == 0:
 			a += 1
 			f.append(i)
-	return f, a
+	if mode == 0:
+		return f
+	elif mode == 1:
+		return a
+	elif mode == 2:
+		return f, a
 
 def get_primes(n):
 	'''
@@ -69,3 +77,16 @@ def is_palindrome(num):
 	if l == l[::-1]:
 		return True
 	return False
+
+def is_prime(num):
+	'''
+	Returns True if num is prime,
+	otherwise returns False.
+	'''
+	i = 1
+	h = (num / 2)
+	while i < h:
+		i += 1
+		if num % i == 0:
+			return False
+	return True
