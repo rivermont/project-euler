@@ -15,8 +15,10 @@ If you came here looking for solutions, take a minute to think about what you're
   - [Problems](#problems)
     - [001](#001---multiples-of-3-and-5)
     - [002](#002---even-fibonacci-numbers)
+	- [003](#003---largest-prime-factor)
     - [004](#004---largest-palindrome-product)
     - [005](#005---smallest-multiple)
+	- [006](#006---sum-square-difference)
 	- [012](#012---highly-divisible-triangular-number)
 	- [013](#013---large-sum)
   - [Functions](#functions)
@@ -42,11 +44,18 @@ Python - [`001.py`](https://github.com/rivermont/project-euler/blob/master/solut
 ## 002 - Even Fibonacci numbers
 Python - [`002.py`](https://github.com/rivermont/project-euler/blob/master/solutions/002.py) - 10 lines
 
+## 003 - Largest Prime Factor
+Python - [`003.py`](https://github.com/rivermont/project-euler/blob/master/solutions/003.py)
+
 ## 004 - Largest palindome product
 Python - [`004.py`](https://github.com/rivermont/project-euler/blob/master/solutions/004.py) - 15 lines
 
 ## 005 - Smallest multiple
 Python - [`005.py`](https://github.com/rivermont/project-euler/blob/master/solutions/005.py) - 16 lines
+
+## 006 - Sum square difference
+Python - [`006.py`](https://github.com/rivermont/project-euler/blob/master/solutions/006.py) - 13 lines
+
 
 ## 012 - Highly divisible triangular number
 Python - [`012.py`](https://github.com/rivermont/project-euler/blob/master/solutions/012.py) - 24 lines
